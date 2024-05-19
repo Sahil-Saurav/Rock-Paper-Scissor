@@ -133,7 +133,7 @@ fun UIScreen(name:String,rounds:String,movebacktomain:()->Unit,modifier:Modifier
                 } },
                 colors = CardDefaults.cardColors(Color(Purple80.value)),
                 modifier = Modifier.height(80.dp)){
-                Text(text = "Scissor", fontSize = 40.sp, color = Color(0xff481267),
+                Text(text = "Scissor", fontSize = 35.sp, color = Color(0xff481267),
                     fontWeight = FontWeight.Bold,
                     fontFamily = FontFamily.SansSerif,
                     fontStyle = FontStyle.Italic,
